@@ -1,14 +1,4 @@
-/**
-* Template Name: DevFolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -692,6 +682,7 @@ a:hover {
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
+  height: 40vh;
   overflow-y: auto;
   transition: 0.3s;
 }
