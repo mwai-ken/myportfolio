@@ -31,7 +31,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Portfolio</a></h1>
+      <h1 class="logo" style="background-color:brown;border:2px solid white; border-radius:24%;"><a href="">Portfolio</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
@@ -417,7 +417,7 @@ A frontend php web developer.I use codeigniter framework to build systems.
 <div class="row">
     <div class="col-md-6">
     <h2><u>Reach out</u></h2>
-    <?php echo form_open( 'message',array('role'=>'form','data-toggle'=>"validator" ,'class'=>"form-horizontal")) ; ?>
+      <form>  
                     <div class="form-group">
                         <input type="email" name="email" id="name" placeholder="Enter Your Email" required/>
                         <small style="color:red; font-size: 80%"><?php echo form_error('email');?></small>                                           
